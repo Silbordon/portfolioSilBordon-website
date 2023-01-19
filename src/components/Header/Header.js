@@ -24,7 +24,12 @@ const Header = () =>  (
       <Link href="#tech">
         <NavLink>Technologies</NavLink>
       </Link>
-    </li>              
+    </li>    
+    <li>
+      <Link href="#about">
+        <NavLink>About Me</NavLink>
+      </Link>
+    </li>           
   </Div2>
     <Div3>
       <SocialIcons href="https://github.com/Silbordon">

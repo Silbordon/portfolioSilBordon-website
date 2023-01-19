@@ -43,78 +43,12 @@ const Timeline = () => {
   }, []);
 
   return (
-    <></>
-    // <Section id="about">
-    //   <SectionTitle>About Me</SectionTitle>
-    //   <SectionText>
-    //   The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
-    //   </SectionText>
-    //   <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
-    //     <>
-    //       {TimeLineData.map((item, index) => (
-    //         <CarouselMobileScrollNode
-    //           key={index}
-    //           final={index === TOTAL_CAROUSEL_COUNT - 1}>
-    //           <CarouselItem
-    //             index={index}
-    //             id={`carousel__item-${index}`}
-    //             active={activeItem}
-    //             onClick={(e) => handleClick(e, index)}>
-    //             <CarouselItemTitle>
-    //               {`${item.year}`}
-    //               <CarouselItemImg
-    //                 width="208"
-    //                 height="6"
-    //                 viewBox="0 0 208 6"
-    //                 fill="none"
-    //                 xmlns="http://www.w3.org/2000/svg">
-    //                 <path
-    //                   fill-rule="evenodd"
-    //                   clip-rule="evenodd"
-    //                   d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
-    //                   fill="url(#paint0_linear)"
-    //                   fill-opacity="0.33"
-    //                 />
-    //                 <defs>
-    //                   <linearGradient
-    //                     id="paint0_linear"
-    //                     x1="-4.30412e-10"
-    //                     y1="0.5"
-    //                     x2="208"
-    //                     y2="0.500295"
-    //                     gradientUnits="userSpaceOnUse">
-    //                     <stop stop-color="white" />
-    //                     <stop
-    //                       offset="0.79478"
-    //                       stop-color="white"
-    //                       stop-opacity="0"
-    //                     />
-    //                   </linearGradient>
-    //                 </defs>
-    //               </CarouselItemImg>
-    //             </CarouselItemTitle>
-    //             <CarouselItemText>{item.text}</CarouselItemText>
-    //           </CarouselItem>
-    //         </CarouselMobileScrollNode>
-    //       ))}
-    //     </>
-    //   </CarouselContainer>
-    //   <CarouselButtons>
-    //     {TimeLineData.map((item, index) => {
-    //       return (
-    //         <CarouselButton
-    //           key={index}
-    //           index={index}
-    //           active={activeItem}
-    //           onClick={(e) => handleClick(e, index)}
-    //           type="button">
-    //           <CarouselButtonDot active={activeItem} />
-    //         </CarouselButton>
-    //       );
-    //     })}
-    //   </CarouselButtons>
-    //   <SectionDivider />
-    // </Section>
+    <Section id="about">
+      <SectionTitle>About Me</SectionTitle>
+      <SectionText>
+      I am a very persevering and curious person. During the early years of my professional life I dedicated myself to what I studied, I was a Biochemist and specialized in hematology. However, I was still looking for something that would motivate me and allow me to constantly grow. In that search I found code and, although the change was difficult, every day is a confirmation of my decision. I found what I like to do and now it's just a matter of continuing to advance and grow. I love programming and always try to give my best. I enjoy working in teams and on projects that improve people's lives. Throughout my training I met many people who helped me develop different skills (communication, active listening, organization, leadership) and to whom I am extremely grateful. I believe that if you do what you love, you can become the best version of yourself, that's why I want to believe that I am on that path.      </SectionText>
+      <SectionDivider />
+    </Section>
   );
 };
 
