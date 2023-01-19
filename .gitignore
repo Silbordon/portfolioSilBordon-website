@@ -5,6 +5,11 @@
 /.pnp
 .pnp.js
 
+# /.gitignore
+# next.js build output
+.next
+
+
 # testing
 /coverage
 
